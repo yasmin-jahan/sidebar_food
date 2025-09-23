@@ -698,6 +698,9 @@ gap: 15px;
 }
 
 @media only screen and (max-width:480px){
+    .cursor_wrapper{
+        display: none;
+    }
 /* hamburger-section-starts */
 .hamburger_menu_section {
     padding: 10px 0;
@@ -788,9 +791,9 @@ gap: 15px;
 .contact_heading h3 {
     font-size: 17px;
 }
-.contact_text p {
+/* .contact_text p {
     font-size: 12px;
-}
+} */
 .contact_btn a {
     padding: 7px 15px;
     font-size: 12px;
