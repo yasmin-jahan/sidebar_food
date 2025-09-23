@@ -55,7 +55,7 @@ clear: both;
     overflow-y: auto;
     scrollbar-width: thin;
     padding: 50px 5px;
-    z-index: 99;
+    z-index: 999;
     transition: all .6s ease-in-out;
 }
 
@@ -149,7 +149,7 @@ clear: both;
     background-color: #0000007d;
     inset: 0;
     display: none;
-    z-index: -1;
+    z-index: 99;
 }
 .hero_banner_area {
     display: flex;
